@@ -1,0 +1,36 @@
+/* List and Items */
+#assignments-list {
+  margin-left: 5px;
+}
+
+.assignment-link-list-item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-left: 8px solid rgba(65, 65, 65, 0.767);
+}
+
+.before-after-link {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.item-active {
+  border-left: 8px solid #17f0a8de;
+}
+
+.active-background {
+  background-color: #17f0a880
+}
+
+.assignment-not-completed-text {
+  color: red;
+  margin-left: 20px
+}
+
+.link-bullet {
+  font-size: 2rem;
+  font-family: 'Kaushan Script', serif;
+  font-weight: 700;
+  margin: 0 15px;
+}
