@@ -5,14 +5,15 @@ filterChildNodes(
   assignmentListItems,
   'nodeType',
   1,
-  updateListItems
+  updateListItem
 );
 
 /**
- * Function to append 'Assignment not yet completed
+ * Function to append 'Assignment not yet completed'
  * element to assignments with any missing links
+ * Also prepends bullet points for lists
  */
-function updateListItems(obj) {
+function updateListItem(obj) {
   // Custom Bullet mark
   createNewNode(
     obj,
@@ -60,20 +61,6 @@ function filterChildNodes(nodes, filter, filterVal, callback) {
       callback(targetElement);
     }
   }
-}
-
-/**
- * Callback to handle anchor filter in updateListItems()
- */
-function pushToArray(node, array) {
-  array.push(node);
-}
-
-/**
- * Callback to handle bulletMark assignment
-*/
-function assignToVariable(node, variable) {
-  variable = node;
 }
 
 /**
