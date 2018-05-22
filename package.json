@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "repo for work from CCV college class webdev 1151",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltyjohn/ccv-webdev-1151.git"
+  },
+  "author": "John Salzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltyjohn/ccv-webdev-1151/issues"
+  },
+  "homepage": "https://github.com/saltyjohn/ccv-webdev-1151#readme"
+}
