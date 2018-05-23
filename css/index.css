@@ -8,19 +8,37 @@ body {
   align-items: center;
   margin: 0px 10%;
 }
-a {
-  text-decoration: inherit;
+header {
+  color: #f5f5f5;
+  background-color: #13b5f5;
+  border-radius: 2rem;
+  padding: 15px;
 }
 h1 {
-  font-size: 300%;
+  font-size: 3rem;
   width: 100%;
-  background-color: #13b5f5;
-  color: #f5f5f5;
-  padding: 15px;
-  border-radius: 2rem;
   margin: 0;
 }
+a { text-decoration: inherit; }
 
+#github-link {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  border-top: 4px solid #17f0a8fa;
+  border-left: 2px solid #17f0a8fa;
+  border-right: 2px solid #17f0a8fa;
+  border-bottom-left-radius: 1.3rem;
+  border-bottom-right-radius: 1.3rem;
+}
+#github-link > p > a {
+  text-decoration: underline;
+  font-style: italic;
+  color: #f5f5f5;
+}
+#github-link > p > a:visited {
+  text-decoration: none;
+  color: #ff9283;
+}
 
 /* List Container */
 #assignments-list {
