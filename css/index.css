@@ -31,8 +31,9 @@ h1 {
   display: flex;
   align-items: center;
   margin: 25px 0;
-  border-left: 8px solid #ff1e00a6;
-  border-bottom: 4px solid #ff1e00a6;
+  border-left: 18px solid #ff1e00a6;
+  border-bottom: 8px solid #ff1e00a6;
+  border-bottom-left-radius: 2rem;
 }
 .item-active {
   border-color: #17f0a8fa;
@@ -61,6 +62,7 @@ h1 {
 .ba-container {
   display: flex;
   flex-direction: row;
+  margin-left: 30px;
 }
 
 .ba-container>p {
@@ -78,8 +80,6 @@ h1 {
   -webkit-text-fill-color: #666666;
   -webkit-text-stroke-width: 1px;
 }
-
-
 .b-link {
   text-decoration-color: #44e3ff;
   -webkit-text-stroke-color: #44e3ff5d;
@@ -90,7 +90,6 @@ h1 {
   -o-animation:      blue-pulse 1.7s infinite;
   animation:         blue-pulse 1.7s infinite;
 }
-
 .a-link {
   margin: 0 30px;
   text-decoration-color: #17f0a8;
