@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Highlighting Text</title>
+  <link rel="stylesheet" href="common/css/assign02_02.css">
+</head>
+
+<body>
+  <div id="query-field">
+    <p>So, I went back and read the instructions myself to see what I'd done wrong. They said:</p>
+    <blockquote>
+      <p>Remove the tray from the box. Pierce the overwrap several times with a fork and cook on High for 15 minutes, rotating
+        it half way through.</p>
+    </blockquote>
+    <p>I thought he'd told me
+      <em>fifty</em>. No wonder it exploded in my microwave.</p>
+  </div>
+  <div id="search-container">
+    <label>Type the text you'd like to highlight in the field below!</label>
+    <input type="text" id="search-input" onkeyup="highlightSelectedText()" value="and">
+  </div>
+
+  <script src="common/js/highlight.js"></script>
+</body>
+
+</html>
