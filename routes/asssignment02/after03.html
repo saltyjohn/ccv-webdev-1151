@@ -3,105 +3,131 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Antoni Gaudí, Barcelona's architect</title>
+  <!-- Updated title to better represent alterations to page: news landing site,
+        52 characters for best SEO -->
+  <title>JRSweb: Latest Before and Afters, Research and More!</title>
   <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="common/css/div-with-more-styling-after.css" />
-  <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" />
+  <link rel="stylesheet" href="common/css/assign02_01.css">
+  <link rel="stylesheet" href="common/css/assign02_03.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700i|Poppins:500i" rel="stylesheet">
 </head>
 
 <body>
-  <!-- This div wraps around the entire page -->
-  <div class="container">
-    <!-- ==== START PAGE HEADER ==== -->
-    <header role="banner">
-      <nav role="navigation">
-        <ul class="toc">
-          <button>
-            <a href="#gaudi">Barcelona's Architect</a>
-          </button>
-          <button>
-            <a href="#sagrada-familia">La Sagrada Família</a>
-          </button>
-          <button>
-            <a href="#park-guell">Park Guell</a>
-          </button>
+  <!-- ==== SITE NAVIGATION ==== -->
+  <header>
+    <div>
+      <a href="#">
+        JRSweb
+      </a>
+    </div>
+  </header>
+
+  <!-- General Div for Full Page Margins -->
+  <div class="page-content">
+
+    <main role="main">
+      <!-- ==== START PARENT ARTICLE ==== -->
+      <article>
+        <div class="article-title-container">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Responsive_Web_Design_Demo_Template.svg" alt="graphics art of multiple devices with varying sizes, wikipedia commons">
+          <h1>Responsive Web Design</h1>
+        </div>
+        <p class="article-content">
+          &emsp;The
+          <!-- Added abbreviations and defintions -->
+          <abbr title="Responsive Web Design">RWD</abbr> philosophy can be integrated within both Progressive Web Enhancement and Graceful Degradation.
+          <dfn>RWD</dfn> is simply dynamic rendering based on device size. Websites and applications that incorporate RWD principles
+          have prepared for the end-user to be using anything from a desktop, to tablet, or smartphone. The most common implementation
+          of RWD is through CSS media queries.
+          <dfn>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">@media</a>
+          </dfn> is a rule within CSS that changes or applies a look or layout when specified parameters are met such as
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width" target="_blank">width</a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/height" target="_blank">height</a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation" target="_blank">orientation</a>,
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/scripting" target="_blank">scripting</a>, etc.
+          <br>
+          <br>&emsp;In 2015, for the first time in history, users with mobile devices (smartphones and tablets) out-searched
+          the web compared to users with desktops and laptops. Google embraced this turn with an update to it's search algorithm,
+          coined
+          <!-- short quote for Mobilegeddon -->
+          <q>
+            <a href="https://en.wikipedia.org/wiki/Mobilegeddon" target="_blank">Mobilegeddon</a>
+          </q>, that slightly favored websites which could return appealing layouts to mobile users. Searches from laptops and
+          desktops were not affected. The resulting affect to traffic on non-responsive sites was fairly insubstantial, but
+          could spell a trend in other markets as mobile performance increases and the desktop environment user-base shrinks.
+        </p>
+
+        <!-- article's footer, not the page's -->
+        <footer class="deep-margin">
+          <p>John Salzman is a freelance web developer who is working toward his degree in computer systems management from
+            the Community College of Vermont.</p>
+
+          <address>
+            You may reach him at
+            <a href="mailto:thisisreallymyemail@iamtotallydoingwork.com">thisisreallymyemail@iamtotallydoingwork.com</a>.
+          </address>
+        </footer>
+        <br>
+        <hr>
+
+        <!-- :::: Start Reader Comments Section :::: -->
+        <!-- each article nested in the parent article represents a reader comment -->
+        <section id="comment-section">
+          <div class="h2-border-01">
+            <div class="h2-border-00">
+              <h2>Reader Comments</h2>
+            </div>
+          </div>
+
+          <article class="comment-container">
+            <footer>travelgal wrote on
+              <time datetime="2014-02-26">February 26, 2014</time>:
+            </footer>
+            <p class="deep-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt qui iste amet minus inventore officiis
+              porro laboriosam corrupti reprehenderit! Ipsam, odit officia rerum ab eligendi laborum illum accusantium nulla!Est
+              ratione blanditiis omnis possimus rem hic iste unde non eveniet vitae suscipit, adipisci saepe ea dolorem dolores
+              neque eaque doloremque quisquam necessitatibus! Quidem, nihil asperiores. Sequi hic esse modi?</p>
+          </article>
+
+          <article class="comment-container">
+            <footer>juan wrote on
+              <time datetime="2014-02-28">February 28, 2014</time>:</footer>
+            <p class="deep-margin">Dolore ab velit vel recusandae nulla debitis blanditiis expedita reprehenderit neque at accusantium ratione ipsa
+              distinctio ea libero tempore, magnam dolorem minima temporibus necessitatibus sit est voluptatibus nobis. Temporibus,
+              iste? Blanditiis quaerat ut qui beatae illo ullam? Itaque exercitationem placeat cupiditate dolorum impedit
+              ut commodi vel quod voluptates rem, illo amet! Facere commodi accusamus fugiat in nemo assumenda rerum ipsam.</p>
+          </article>
+
+          <article id="comments-button">
+            <button class="button-go" onclick="loadMoreComments()">Load More Comments</button>
+          </article>
+        </section>
+        <!-- end reader comments section -->
+      </article>
+      <!-- end parent article -->
+    </main>
+    <hr>
+    <!-- COMPLIMENTARY ASIDE -->
+    <aside role="complementary">
+      <h2 style="color: #fff; background-color: #0ebfc5">Other Articles By John Salzman</h2>
+      <!-- Had to get a little lazy with the links.... time management -->
+      <nav>
+        <ul class="deep-margin" style="margin-top: 2rem">
+          <li>
+            <a href="https://sites.google.com/site/jrswebdeb1151/assignments/assignment02">Progressive Web Enhancement</a>
+          </li>
+          <li>
+            <a href="https://sites.google.com/site/jrswebdeb1151/assignments/assignment02">Graceful Degradation</a>
+          </li>
         </ul>
       </nav>
-    </header>
-    <!-- end page header -->
 
-    <!-- ==== START MAIN CONTENT ==== -->
-    <main role="main">
-      <article>
-        <h1 id="gaudi">Barcelona's Architect</h1>
 
-        <p>Antoni Gaudí's incredible buildings bring millions of tourists to Barcelona each year.</p>
-
-        <p>Gaudí's non-conformity, already visible in his teenage years, coupled with his quiet but firm devotion to the church,
-          made a unique foundation for his thoughts and ideas. His search for simplicity, based on his careful observations
-          of nature, is quite apparent in his work, from the
-          <a href="#park-guell">Park Guell</a> and its incredible sculptures and mosaics, to the Church of the
-          <a href="#sagrada-familia">Sacred Family</a> and its organic, bulbous towers.</p>
-
-        <h2 id="sagrada-familia" lang="es">La Sagrada Família</h2>
-
-        <p>
-          <img src="img/towers.jpg" width="75" height="100" alt="Sagrada Família Towers" /> The complicatedly named and curiously unfinished masterpiece that is the Expiatory Temple of the Sacred Family
-          is the most visited building in Barcelona. In it, Gaudí combines his vision of nature and architecture with his
-          devotion to his faith. The Sagrada Família attracts even the non-religious to its doors in large part due to its
-          tragic story and its still unfinished state, of which the everpresent scaffolding and cranes are permanent reminders.</p>
-
-        <h2 id="park-guell">Park Guell</h2>
-
-        <p>
-          <img src="img/dragon.jpg" width="100" height="75" alt="Park Guell Dragon" /> The Park Guell always reminds me of Howard Roark in Ayn Rand's
-          <a href="http://en.wikipedia.org/wiki/Fountainhead">
-            <cite>The Fountainhead</cite>
-          </a>. Gaudí's project in the Park Guell was to build a residential community whose residents would love where they
-          lived. It was never finished.</p>
-
-        <p>Perhaps that is for the best, since now we
-          <em>all</em> get to enjoy it. The Park Guell is set on a hill overlooking practically all of Barcelona. Its beautiful
-          and even comfortable serpentine bench is filled with foreigners and locals alike every day of the week. Its mosaic
-          lizards have become synonymous with the city itself.</p>
-      </article>
-    </main>
-    <!-- end main content -->
-
-    <!-- ==== START SIDEBAR ==== -->
-    <aside role="complementary">
-      <h1>Architectural Wonders of Barcelona</h1>
-
-      <p>Barcelona is home to many architectural wonders in addition to Gaudí's work. Some of them include:</p>
-
-      <ul>
-        <li lang="es">Arc de Triomf</li>
-        <li>The cathedral
-          <span lang="es">(La Seu)</span>
-        </li>
-        <li lang="es">Gran Teatre del Liceu</li>
-        <li lang="es">Pavilion Mies van der Rohe</li>
-        <li lang="es">Santa Maria del Mar</li>
-      </ul>
-
-      <p>
-        <small>Credit:
-          <a href="http://www.barcelona.de/en/barcelona-architecture-buildings.html" rel="external">
-            <cite>Barcelona.de</cite>
-          </a>.</small>
-      </p>
     </aside>
-    <!-- end sidebar -->
-
-    <!-- ==== START PAGE FOOTER ==== -->
-    <footer role="contentinfo">
-      <p>
-        <small>&copy; Copyright All About Gaudí</small>
-      </p>
-    </footer>
-    <!-- end page footer -->
   </div>
-  <!-- end page container -->
+
+  <script src="common/js/moreComments.js"></script>
 </body>
 
 </html>

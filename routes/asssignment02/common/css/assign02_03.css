@@ -1,0 +1,17 @@
+/* Updated styling for assignment 03
+Original styling preloaded  */
+h2 {
+  border-radius: 3rem;
+  margin: 0px auto;
+  padding: 10px 0;
+}
+
+
+@media screen and (max-width: 640px) {
+  .article-title-container {
+    flex-direction: column;
+  }
+  header {
+    font-size: 80%;
+  }
+}
