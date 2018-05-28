@@ -64,7 +64,7 @@ function moveEyes(lookback = false) {
     const eye = document.getElementsByClassName('eye')[0];
     const mark = document.getElementsByTagName('mark')[0];
     const minEl = document.getElementsByTagName('p')[2];
-    const maxEl = document.getElementsByTagName('p')[1];
+    const maxEl = document.getElementsByTagName('p')[3];
 
     // retrieve location information
     const eyeRect = eye.getBoundingClientRect();
@@ -87,7 +87,7 @@ function moveEyes(lookback = false) {
     // math from picture, but with updated range and base values
     // to more accurately point in direction of highlighted element
     const eyeValY = (((markY - minY) / (maxY - minY)) * 4) + 5
-    const eyeValX = (((markX - minX) / (maxX - minX)) * 22) + 14
+    const eyeValX = (((markX - minX) / (maxX - minX)) * 20) + 14
 
     changeGlimmerPosition(eyeValY, eyeValX)
   }
