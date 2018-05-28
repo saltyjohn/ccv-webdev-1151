@@ -1,3 +1,9 @@
+/**
+ * Meant to setTimeout for individual comments to load
+ * at a slightly slower pace, but instead extracted funtions
+ * I always get confused with setTimeout in for loops...
+ */
+
 userComments = {
   user_2342: {
     name: "dio",
