@@ -1,8 +1,8 @@
 /* Globals */
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  margin: 0;
 }
 header {
   background: #0ed1d8;
@@ -73,20 +73,20 @@ h2 {
   border-radius: 4rem;
 }
 
-section {
+#comment-section {
   max-width: 720px;
   margin: 0px auto;
   padding: 0 20px;
 }
-section>article {
+.comment-container {
   margin-top: 40px;
 }
-section>article>footer {
+.comment-container>footer {
   background-color: #dddddd;
   padding: 20px;
   border-radius: 2rem;
 }
-footer>time {
+.comment-container>footer>time {
   color: #0ed1d8;
 }
 
@@ -100,4 +100,9 @@ button {
   border: none;
   border-radius: 2rem;
   margin-bottom: 2rem;
+}
+
+
+aside {
+
 }
