@@ -4,6 +4,8 @@ body {
   font-weight: 400;
   margin: 0;
 }
+
+/* Banner */
 header {
   background: #0ed1d8;
   padding: 2rem 4rem;
@@ -15,67 +17,83 @@ header>div>a {
   color: #ececec;
 }
 
-/* Article Styling */
-article {
+
+/* Page General */
+.page-content {
   margin: 30px auto;
   max-width: 878px;
 }
+.deep-margin {
+  margin: 0px 20%;
+}
+.button-go {
+  color: #ececec;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 200px;
+  height: 50px;
+  margin: 50px auto;
+  background-color: #0ed81f;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Article Styling */
 .article-title-container {
   display: flex;
   align-items: center;
 }
-.article-title {
+.article-title-container > h1 {
   font-size: 3rem;
   font-family: 'PT Serif', serif;
   text-align: center;
   margin-top: .2rem;
 }
-.article-image {
+.article-title-container > img {
   width: 50%;
 }
-
 .article-content {
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 0 2rem;
-}
-.author-contact {
-  margin: 0px 20%;
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
 }
 
 
 /* Footer Styling */
 h2 {
   width: 90%;
-  color: #f3a273;
+  color: #17616e;
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
   background-color: #3cedf3;
   border-radius: 2rem;
-  margin: 0px auto;
-  /* padding */
+  margin: 50px auto;
 }
 .h2-border-00 {
-  height: 70%;
-  width: 95%;
+  width: 93%;
   margin: 25px auto;
   background-color: #28dae0;
   border-radius: 3rem;
 }
 .h2-border-01 {
-  /* height: 80px; */
   padding: 10px auto;
   margin: 0px auto;
   background-color: #0ebfc5;
   border-radius: 4rem;
 }
+footer > p {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+}
 
+
+/* Comment Section */
 #comment-section {
   max-width: 720px;
-  margin: 0px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 .comment-container {
@@ -89,20 +107,8 @@ h2 {
 .comment-container>footer>time {
   color: #0ed1d8;
 }
-
-button {
-  color: #ececec;
-  font-weight: 700;
-  width: 200px;
-  height: 50px;
-  margin: 0px auto;
-  background-color: #0ed1d8;
-  border: none;
-  border-radius: 2rem;
-  margin-bottom: 2rem;
+.comment-container > p {
+  margin-top: 12px;
 }
 
 
-aside {
-
-}
