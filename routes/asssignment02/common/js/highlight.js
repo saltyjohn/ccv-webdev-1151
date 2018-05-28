@@ -15,13 +15,13 @@ const initialHTML = `
 // Function to highlight input text
 const highlightSelectedText = () => {
   const queryField = document.getElementById('query-field')
-  const search = document.getElementById('search-input').value;
+  const search = document.getElementById('search-input').value.replace('.', '');
   const pNodes = document.getElementsByTagName('p');
 
   // Reset for backspace keypress
   queryField.innerHTML = initialHTML;
 
-  // Create new RegEx out of input
+  // Create new RegEx out of input, remove '.' characters
   const searchRegex = new RegExp(search);
 
   // Loop through paragraph elements
@@ -35,8 +35,6 @@ const highlightSelectedText = () => {
       node.innerText.search(searchRegex) !== -1 &&
       (search !== '' && search !== ' ')
     ) {
-      // Error: when typing 'ough.' in search
-      //   => changes 3rd <p> 'thought' to highlighted 'ough.'
       node.innerHTML = node.innerHTML.split(searchRegex).join(`<mark>${search}</mark>`)
       moveEyes(node.innerHTML.search());
     }
