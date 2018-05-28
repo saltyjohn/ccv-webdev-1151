@@ -6,12 +6,28 @@ h2 {
   padding: 10px 0;
 }
 
+.comment-container {
+  animation: slide-up 0.6s ease;
+}
 
+/* Media Query for small view */
 @media screen and (max-width: 640px) {
   .article-title-container {
     flex-direction: column;
   }
   header {
-    font-size: 80%;
+    font-size:20%;
+  }
+}
+
+/* Keyframes animation to load comments => source: https://codeburst.io/animating-dynamically-created-elements-pure-css-c864fdb6e366 */
+@keyframes slide-up {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
 }
