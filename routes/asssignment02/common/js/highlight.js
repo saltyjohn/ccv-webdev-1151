@@ -15,14 +15,17 @@ const initialHTML = `
 // Function to highlight input text
 const highlightSelectedText = () => {
   const queryField = document.getElementById('query-field')
-  const search = document.getElementById('search-input').value.replace('.', '');
+  // const search = document.getElementById('search-input').value.replace('.', '');
+  const search = document.getElementById('search-input').value;
   const pNodes = document.getElementsByTagName('p');
 
   // Reset for backspace keypress
   queryField.innerHTML = initialHTML;
 
-  // Create new RegEx out of input, remove '.' characters
-  const searchRegex = new RegExp(search);
+  // Create new RegEx out of input, remove '.' wildcard with escaped '\\.'
+  const fixSearch = search.split('.').join('\\.')
+  // console.log(search)
+  const searchRegex = new RegExp(fixSearch);
 
   // Loop through paragraph elements
   for (let i in pNodes) {
