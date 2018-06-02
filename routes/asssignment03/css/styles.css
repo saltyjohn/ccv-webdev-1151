@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0px auto;
+  font-family: 'Song Myung', serif;
+  color: #2c2c2c;
+}
+main > h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.6rem;
+}
+
+/* HEADER STYLING */
+header {
+  background-color: #0ed1d8;
+  display: flex;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+header>a {
+  text-decoration: inherit;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ececec;
+}
+header>img {
+  height: 125px;
+  width: auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 4.4rem;
+}
+
+article > h2 {
+  margin: 15px 0 15px 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #09999e;
+}
+article > p {
+  font-size: 1.2rem
+}
+
+article > footer > p {
+  font-style: italic;
+  font-size: 1rem;
+  color: #424242;
+}
