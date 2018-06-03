@@ -151,19 +151,19 @@ main {
 /* KEYFRAMES & MEDIA QUERIES */
 @keyframes green-pulse {
   0%   {
-    font-size: 2.2rem;
+    font-size: 3rem;
     -webkit-text-fill-color: #666666;
     -webkit-text-stroke-color: #17f0a850;
     -webkit-text-stroke-width: 1px;
   }
   30% {
-    font-size: 2.5rem;
+    font-size: 4rem;
     -webkit-text-fill-color: #414141;
     -webkit-text-stroke-color: #17f0a8fa;
     -webkit-text-stroke-width: 2px;
   }
   100%  {
-    font-size: 2.2rem;
+    font-size: 3rem;
     -webkit-text-fill-color: #666666;
     -webkit-text-stroke-color: #17f0a850;
     -webkit-text-stroke-width: 1px;
@@ -172,19 +172,19 @@ main {
 
 @keyframes blue-pulse {
   0%   {
-    font-size: 2.2rem;
+    font-size: 3rem;
     -webkit-text-fill-color: #666666;
     -webkit-text-stroke-color: #44e3ff5d;
     -webkit-text-stroke-width: 1px;
   }
   60% {
-    font-size: 2.5rem;
+    font-size: 4rem;
     -webkit-text-fill-color: #414141;
     -webkit-text-stroke-color: #44e3ffe1;
     -webkit-text-stroke-width: 2px;
   }
   100%  {
-    font-size: 2.2rem;
+    font-size: 3rem;
     -webkit-text-fill-color: #666666;
     -webkit-text-stroke-color: #44e3ff5d;
     -webkit-text-stroke-width: 1px;
