@@ -1,19 +1,16 @@
 /* Global */
 body {
-  display: flex;
-  flex-direction: column;
   font-family: 'EB Garamond', serif;
-  text-align: center;
   background-color: #ebebeb;
   align-items: center;
-  margin: 0px 10%;
 }
-/* header {
+
+/* Header Styling */
+header {
   background-color: #0ed1d8;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  color: #f5f5f5;
+  padding: 2rem 4rem;
 }
 header>a {
   text-decoration: inherit;
@@ -22,43 +19,22 @@ header>a {
   color: #ececec;
 }
 header>img {
-  width: 10%;
+  height: 125px;
+  width: auto;
   background-color: #fff;
   padding: 20px;
   margin-right: 20px;
   border-radius: 4.4rem;
-} */
+}
 
-header {
-  color: #f5f5f5;
-  background-color: #13b5f5;
-  border-radius: 2rem;
-  padding: 15px;
-}
-h1 {
-  font-size: 3rem;
-  width: 100%;
-  margin: 0;
-}
-a { text-decoration: inherit; }
+/* TODO: Add Styling for NAV */
 
-#github-link {
-  font-size: 1.1rem;
-  margin-top: 5px;
-  border-top: 4px solid #17f0a8fa;
-  border-left: 2px solid #17f0a8fa;
-  border-right: 2px solid #17f0a8fa;
-  border-bottom-left-radius: 1.3rem;
-  border-bottom-right-radius: 1.3rem;
-}
-#github-link > p > a {
-  text-decoration: underline;
-  font-style: italic;
-  color: #f5f5f5;
-}
-#github-link > p > a:visited {
-  text-decoration: none;
-  color: #ff9283;
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 960px;
 }
 
 /* List Container */
