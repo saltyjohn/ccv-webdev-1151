@@ -27,8 +27,9 @@ header>img {
   border-radius: 4.4rem;
 }
 
-/* TODO: Add Styling for NAV */
-
+/*
+TODO: Add Styling for NAV
+*/
 
 main {
   display: flex;
@@ -37,10 +38,22 @@ main {
   max-width: 960px;
 }
 
+#psuedo-table-headers {
+  display: flex;
+  width: 80%;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-family: 'Lobster', serif;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+#psuedo-table-headers>h2:nth-child(2) {
+  align-content: flex-end;
+}
+
 /* List Container */
 #assignments-list {
-  padding: 0;
-  margin-left: -15px;
+  padding: 20px;
 }
 .list-item {
   display: flex;
@@ -55,46 +68,53 @@ main {
 }
 
 .link-bullet {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Kaushan Script', serif;
   font-weight: 700;
-  height: 3rem;
+  height: 4rem;
   padding: 0px 15px;
   border-top-right-radius: .3rem;
   background-color: #13b5f5
 }
 .assignment-number {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  padding: .5rem;
-  margin-right: 20px;
+  padding: .65rem;
+  margin-right: 7rem;
   border-right: 3px solid #13b5f5;
   border-bottom: .1rem solid #13b5f5;
   border-bottom-right-radius: .3rem;
 }
-
+.assignment-container {
+  width: 100%;
+}
 .ba-container {
   display: flex;
   flex-direction: row;
-  margin-left: 30px;
+  justify-content: space-around;
 }
 
-.ba-container>p {
-  width: 150px;
-  text-align: start;
-  font-weight: 700;
-}
 
 .link-style {
   color: #414141;
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 2.2rem;
+  font-size: 3rem;
   text-decoration: underline;
+  padding: 0.8rem 0;
   -webkit-text-fill-color: #666666;
   -webkit-text-stroke-width: 1px;
 }
+/* B&A TITLE */
+.ba-container > p {
+  width: 150px;
+  font-size: 1.3rem;
+  text-align: end;
+  font-weight: 700;
+  margin-right: 1.4rem;
+}
+
 .b-link {
   text-decoration-color: #44e3ff;
   -webkit-text-stroke-color: #44e3ff5d;
@@ -106,7 +126,6 @@ main {
   animation:         blue-pulse 1.7s infinite;
 }
 .a-link {
-  margin: 0 30px;
   text-decoration-color: #17f0a8;
   -webkit-text-stroke-color: #17f0a850;
 }
@@ -121,7 +140,10 @@ main {
   border-top: 1px solid #ff4800;
   border-left: 1px solid #ff4800;
   border-bottom: 1px solid #ff4800;
+  /* width for lining up with completed tasks */
+  width: 70%;
   color: #ff4800;
+  text-align: center;
   align-content: right;
 }
 
@@ -166,5 +188,39 @@ main {
     -webkit-text-fill-color: #666666;
     -webkit-text-stroke-color: #44e3ff5d;
     -webkit-text-stroke-width: 1px;
+  }
+}
+
+/*
+TODO: fix
+*/
+@media screen and (max-width: 480px) {
+  header > a {
+    font-size: 4rem;
+  }
+  .assignment-number {
+    font-size: 3rem;
+    margin-right: 5rem;
+  }
+  .link-bullet {
+    height: 4.7rem;
+    font-size: 4rem;
+  }
+  .link-style {
+    font-size: 4rem;
+  }
+  .ba-container {
+    padding: 1.7rem;
+  }
+  .ba-container > p {
+    font-size: 1.7rem;
+  }
+  .not-completed-text {
+    font-size: 2rem;
+  }
+  #psuedo-table-headers {
+    margin-left: -0.2rem;
+    justify-content: space-between;
+    font-size: 2.7rem;
   }
 }
