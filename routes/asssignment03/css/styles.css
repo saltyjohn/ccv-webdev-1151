@@ -15,7 +15,7 @@ header > a {
   color: #ececec;
 }
 header > a > img {
-  height:125px;
+  height:100px;
   width: auto;
   background-color: #fff;
   padding: 20px;
@@ -66,7 +66,7 @@ article > footer > p {
 #after02-image {
   width: 960px;
   height: auto;
-  border-radius: 2rem;
+  border-radius: 2.4rem;
 }
 #kirk > h1 {
   font-size: 2rem;
@@ -75,6 +75,7 @@ article > footer > p {
 #kirk > p {
   font-size: 1.4rem;
   letter-spacing: .07rem;
+  margin-bottom: 5rem;
 }
 figcaption {
   text-align: center;
