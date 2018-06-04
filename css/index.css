@@ -40,11 +40,11 @@ main {
 
 #psuedo-table-headers {
   display: flex;
-  width: 80%;
+  width: 90%;
   text-decoration: underline;
   font-size: 2rem;
   font-family: 'Lobster', serif;
-  margin: 0px auto;
+  /* margin: 0px auto; */
   justify-content: space-between;
 }
 #psuedo-table-headers>h2:nth-child(2) {
@@ -58,7 +58,7 @@ main {
 .list-item {
   display: flex;
   align-items: center;
-  margin: 25px 0;
+  margin: 35px 0;
   border-left: 18px solid #ff1e00a6;
   border-bottom: 8px solid #ff1e00a6;
   border-bottom-left-radius: 2rem;
@@ -81,7 +81,7 @@ main {
   font-size: 2.3rem;
   font-weight: 700;
   padding: .65rem;
-  margin-right: 7rem;
+  margin-right: 8rem;
   border-right: 3px solid #13b5f5;
   border-bottom: .1rem solid #13b5f5;
   border-bottom-right-radius: .3rem;
