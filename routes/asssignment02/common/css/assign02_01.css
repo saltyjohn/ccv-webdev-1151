@@ -19,7 +19,7 @@ header {
   align-items: center;
   font-size: 3rem;
   font-weight: 700;
-  color: #ececec;
+  color: #f5f5f5;
 }
 header > a > img {
   height: 100px;
@@ -36,7 +36,7 @@ header > a > img {
 }
 #main-nav > button {
   width: 40%;
-  background-color: #ececec;
+  background-color: #f5f5f5;
   border-style: none;
   border-radius: 2rem;
   padding: 0.5rem;
@@ -59,7 +59,7 @@ header > a > img {
   margin: 0px 20%;
 }
 .button-go {
-  color: #ececec;
+  color: #f5f5f5;
   font-weight: 700;
   font-size: 1rem;
   width: 200px;

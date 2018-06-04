@@ -213,7 +213,7 @@
     <path
        id="path4908"
        d="m -28.990317,21.158372 c 0,0 28.03582876,-32.718664 62.652467,0.322142 0,0 2.016724,-0.01138 2.637523,-1.308695 0,0 -30.4541598,-38.62271 -67.927512,-0.32214 0,0 0.194864,0.919405 2.637522,1.308693 z"
-       style="fill:#ececec;stroke:#999999;stroke-width:0.22549801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#f5f5f5;stroke:#999999;stroke-width:0.22549801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <g
        transform="matrix(0.76084905,0,0,0.76084905,7.9005683,42.559539)"
        id="g4878">
@@ -457,7 +457,7 @@
          id="g5080"
          transform="translate(-0.28348215)">
         <path
-           style="fill:#ececec;stroke:#999999;stroke-width:0.22549801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#f5f5f5;stroke:#999999;stroke-width:0.22549801px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m -28.990317,21.158372 c 0,0 28.03582876,-32.718664 62.652467,0.322142 0,0 2.016724,-0.01138 2.637523,-1.308695 0,0 -30.4541598,-38.62271 -67.927512,-0.32214 0,0 0.194864,0.919405 2.637522,1.308693 z"
            id="path4913" />
         <g
