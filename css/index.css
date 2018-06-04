@@ -8,24 +8,25 @@ body {
 /* Header Styling */
 header {
   background-color: #0ed1d8;
-  display: flex;
-  align-items: center;
   padding: 2rem 4rem;
 }
 header>a {
+  display: flex;
+  align-items: center;
   text-decoration: inherit;
-  font-size: 4vw;
+  font-size: 3rem;
   font-weight: 700;
   color: #ececec;
 }
-header>img {
-  height: 125px;
+header>a>img {
+  height: 100px;
   width: auto;
   background-color: #fff;
   padding: 20px;
   margin-right: 20px;
   border-radius: 4.4rem;
 }
+
 
 /*
 TODO: Add Styling for NAV
