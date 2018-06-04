@@ -1,6 +1,27 @@
 body {
   margin: 0;
 }
+/* HEADER STYLING */
+header {
+  background-color: #0ed1d8;
+  padding: 2rem 4rem;
+}
+header > a {
+  display: flex;
+  align-items: center;
+  text-decoration: inherit;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ececec;
+}
+header > a > img {
+  height:125px;
+  width: auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 4.4rem;
+}
 
 main {
   max-width: 960px;
@@ -9,32 +30,11 @@ main {
   font-family: 'Song Myung', serif;
   color: #2c2c2c;
 }
+/* REMEMBER to use id's for elements when sharing CSS files */
 main > h1 {
   text-align: center;
   margin: 20px 0;
   font-size: 2.6rem;
-}
-
-/* HEADER STYLING */
-header {
-  background-color: #0ed1d8;
-  display: flex;
-  align-items: center;
-  padding: 2rem 4rem;
-}
-header>a {
-  text-decoration: inherit;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #ececec;
-}
-header>img {
-  height: 125px;
-  width: auto;
-  background-color: #fff;
-  padding: 20px;
-  margin-right: 20px;
-  border-radius: 4.4rem;
 }
 
 article > h2 {
@@ -46,14 +46,37 @@ article > h2 {
 article > p {
   font-size: 1.2rem
 }
-
 article > footer > p {
   font-style: italic;
   font-size: 1rem;
   color: #424242;
 }
 
+.tab {
+  margin-left: 40px;
+}
+
 .carousel-item > img {
   width: 100%;
   max-height: 500px;
+}
+
+
+/* AFTER 02 */
+#after02-image {
+  width: 960px;
+  height: auto;
+  border-radius: 2rem;
+}
+#kirk > h1 {
+  font-size: 2rem;
+  margin-left: 40px;
+}
+#kirk > p {
+  font-size: 1.4rem;
+  letter-spacing: .07rem;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
